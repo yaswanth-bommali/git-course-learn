@@ -55,3 +55,8 @@ git push origin tagnumber
 To Create = git checkout -b branchName (or) git switch -c branchName
 To know how many branches = git branch
 To switch between branches = git switch/checkout branchname
+----- Git Pull 
+git pull origin branchName
+----- Git Merge 
+Note : Always pull before merge
+To Merge branches = git merge branchName
