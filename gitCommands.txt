@@ -42,3 +42,12 @@ git-course-learn = New Repository created in github
 git@github.com:yaswanth-bommali/git-course-learn.git = Link provided by Github ( differs for each and every account )
 ----- To push the code to remote repository
 git push -u origin main
+----- To see origin
+git remote -v
+------ Git Tag 
+To add the version number to our files/applications 
+To add tag = git tag -a -m "Message"
+-a = annotated
+To get detailed information about tag = git show tagnumber
+
+
