@@ -1,0 +1,44 @@
+git --version = To get the version of git installed
+----- To configure username and email/password 
+git config user.name "username"
+git config user.password "password"
+git config user.email "email"
+----- To create a repository in our local system
+git init ( gives master )
+git init -b main ( gives main )
+-b = branch
+----- To know the status of git
+git status
+----- To use the main branch ( not master )
+Remove .git = rm -rf .git
+
+----- To commit ( commit is similar to saving in Staging area )
+git add filename ( with extension ) = To move to staging area
+commit = git commit (generates message )
+To insert = git commit -m "message"
+----- To get all commits
+git log
+----- To skip Staging area and do a direct commit from Working Directory
+git commit -a -m "message"
+------ To get the changes happened in file 
+Use diff command = git diff (In Working Directory)
+git diff --staged ( In Staging Area )
+------ To remove a file from git repository
+( Say generally creds.txt and md-Markdown )
+How to add all files to Staging area - git add .
+Removing - git rm --cached filename
+----- To get the entire repository into our system
+git clone link
+----- To create a main branch
+git branch -M main
+----- To move the data (push) and get the data (pull) from the remote repository
+We should use either github/gitlab/bitbucket etc.
+( Using Github here )
+It's better to use SSH instead of HTTPS because in HTTPS we have to enter username and password again and again
+To generate SSH key = ssh-keygen -o
+Add the SSH generated in Github settings by generating SSH Keys
+To connect SSH to our remote repository = git remote add origin git@github.com:yaswanth-bommali/git-course-learn.git
+git-course-learn = New Repository created in github
+git@github.com:yaswanth-bommali/git-course-learn.git = Link provided by Github ( differs for each and every account )
+----- To push the code to remote repository
+git push -u origin main
