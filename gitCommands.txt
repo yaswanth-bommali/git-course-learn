@@ -37,9 +37,9 @@ We should use either github/gitlab/bitbucket etc.
 It's better to use SSH instead of HTTPS because in HTTPS we have to enter username and password again and again
 To generate SSH key = ssh-keygen -o
 Add the SSH generated in Github settings by generating SSH Keys
-To connect SSH to our remote repository = git remote add origin git@github.com:yaswanth-bommali/git-course-learn.git
+To connect SSH to our remote repository = git remote add origin git@github.com:github-username/folder-created.git
 git-course-learn = New Repository created in github
-git@github.com:yaswanth-bommali/git-course-learn.git = Link provided by Github ( differs for each and every account )
+git@github.com:github-username/folder-created.git = Link provided by Github ( differs for each and every account )
 ----- To push the code to remote repository
 git push -u origin main
 ----- To see origin
