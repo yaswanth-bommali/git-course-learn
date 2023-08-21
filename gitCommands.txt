@@ -49,5 +49,5 @@ To add the version number to our files/applications
 To add tag = git tag -a -m "Message"
 -a = annotated
 To get detailed information about tag = git show tagnumber
-
+Push the tags also seperately
 
