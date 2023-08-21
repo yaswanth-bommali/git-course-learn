@@ -60,3 +60,5 @@ git pull origin branchName
 ----- Git Merge 
 Note : Always pull before merge
 To Merge branches = git merge branchName
+----- To go to a particular commit
+git checkout hexadecimal-checksum (that we get)
