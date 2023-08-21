@@ -52,7 +52,6 @@ To get detailed information about tag = git show tagnumber
 Push the tags also seperately
 git push origin tagnumber
 ----- Git Branch
-To Create = git checkout -b branchName
+To Create = git checkout -b branchName (or) git switch -c branchName
 To know how many branches = git branch
 To switch between branches = git switch/checkout branchname
-
